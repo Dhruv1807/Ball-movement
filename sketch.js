@@ -13,7 +13,7 @@ function setup() {
 
 function draw() 
 {
-  background(30);
+  background("lightblue");
   if (keyDown(LEFT_ARROW)){
     ball.x -= 4;
   }
